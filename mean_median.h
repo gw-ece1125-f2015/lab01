@@ -1,5 +1,5 @@
-#ifndef MEAN_MEDIAN_H_
-#define MEAN_MEDIAN_H_
+#ifndef MEAN_MEDIAN_H
+#define MEAN_MEDIAN_H
 
 /**
  * Sort integer array A of size n using Selection Sort
