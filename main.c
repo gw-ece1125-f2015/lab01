@@ -15,30 +15,24 @@ int main (int argc, char* argv[])
 	char *file = argv[1];
 
 	FILE *fp = fopen(file, "rb");
-
 	if (fp == NULL)
 		return 1;
 
 	int n = read_array(fp, &A);
-
 	if (n < 0) {
 		return 1;
 	}
 
 	print_array(A, n);
-
 	select_sort(A, n);
-
 	print_array(A, n);
 
 	double mean = mean_array(A, n);
-
 	double med = median_array(A, n);
 
 	printf("mean = %f med = %f\n", mean, med);
 
 	free(A);
-
 	fclose(fp);
 
 	return 0;
