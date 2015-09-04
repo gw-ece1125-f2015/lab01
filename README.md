@@ -1,11 +1,11 @@
-# Lab Assignment 2
+# Lab Assignment 1
 
-In this assignment you are required to write a program that reads an array of
+In this assignment, you are required to write a program that reads an array of
 integers from file and computes its mean and median.
 
 # Notes & Considerations
 
-• File that you are going to read can have any(including 0) number of integers. So,
+• File that you are going to read can have any (including 0) number of integers, one per line. So,
 you are advised to read the file twice: once for determining its length, once for
 actually reading the integers.
 
@@ -35,5 +35,5 @@ will compute the mean and median of the file and output the results.
 # Requirements
 • You have to use dynamic memory allocation/deallocation. Namely; calloc() and
 free() functions.
-• You have to sort the array, with the Selection Sort algorithm you learned in the
-lecture to find the median.
+
+• The most straightforward way to find a median is to sort the array. We recommend using the Selection Sort algorithm you learned in the lecture (and is covered in the book) to find the median.
