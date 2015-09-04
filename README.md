@@ -12,6 +12,7 @@ actually reading the integers.
 • You can use the executable we provided to generate an array.
 
 ```
+make array_gen #if you don't have array_gen executable
 ./array_gen 10000 arr_file [upper_bound]
 ```
 
